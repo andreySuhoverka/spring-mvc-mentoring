@@ -1,0 +1,1 @@
+<div class="footer">&copy; 2016 Hvents Inc. All rights reserved.</div>

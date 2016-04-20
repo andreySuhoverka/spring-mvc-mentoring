@@ -1,0 +1,148 @@
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow:auto;
+}
+
+.page {
+    min-height:100%;
+    position:relative;
+}
+
+.header {
+    padding:10px;
+    width:100%;
+    text-align:center;
+}
+
+.content {
+    padding: 10px 10px 20px;
+    overflow:hidden;
+}
+
+.menu {
+    padding:50px 10px 0 10px;
+    width:200px;
+    float:left;
+}
+
+.body {
+    margin:50px 10px 0 250px;
+}
+
+.footer {
+    clear:both;
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align:center;
+    width:100%;
+    height:20px;
+    margin-top: 20px;
+}
+
+.header-tip {
+    display: inline;
+    vertical-align: bottom;
+    margin-left: 6px;
+}
+
+.hvents-logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+.app-description {
+    font-size: 17px;
+}
+.hvents-body {
+    overflow-y: auto;
+}
+
+.new-event-container {
+    margin: 25px 0 25px 0;
+}
+
+button {
+    outline: 0 !important;
+}
+
+.new-event-btn:hover {
+    background-color: #4d90fe !important;
+    color: white !important;
+}
+
+.new-event-btn:active {
+    background-color: #4d90fe !important;
+    color: white !important;
+}
+
+.new-event-btn:focus {
+    background-color: white !important;
+    color: black !important;
+}
+
+.specialities-wrap p, .specialities-wrap h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+.event-box {
+    width: 316px;
+    height: 236px;
+    background-color: #D7F7F1;
+    font-size: 30px;
+    color: #5E5C59;
+    position: relative;
+    margin-bottom: 70px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.event-box .event-name {
+    font-weight: bold;
+    margin-top: 26px;
+    padding-left: 14px;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.event-box .speciality-link {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 41px;
+    height: 40px;
+    background: url(../img/specCompare/speciality-link.png);
+}
+
+.event-box .choose-speciality-filled {
+    width: 49px;
+    height: 45px;
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+    background: url(../img/specCompare/choose-speciality-filled.png);
+}
+
+.event-box .event-start-time {
+    width: 255px;
+    margin-left: 14px;
+    margin-top: 45px;
+}
+
+.create-event-title {
+    text-align: center;
+}
+
+.create-event-submition {
+    margin-left: 62.5%;
+    margin-top:24px;
+}
